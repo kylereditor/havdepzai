@@ -26,6 +26,7 @@ from random import randint
 from pystyle import Colors, Colorate
 import uuid, re
 from bs4 import BeautifulSoup
+os.system("cls" if os.name == "nt" else "clear")
 class Facebook_Api (object):
 	def __init__(self, cookie):
 		self.cookie = cookie
