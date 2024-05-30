@@ -18,6 +18,7 @@ time.sleep(2)
 print(Style.RESET_ALL)
 
 # Phần còn lại của code
+print(Style.RESET_ALL)
 import os, json, sys, requests 
 from sys import platform
 from time import sleep
