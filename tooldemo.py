@@ -47,12 +47,13 @@ def banner():
     hong = "\033[95m"
     banner = f"""
 \033[1;36m╔═════════════════════════════════════════════════════════════════           
-\033[1;36m╭╮╱╭┳━━━┳╮╱╱╭╮\033[1;36m╭━━━┳━━━┳━━━╮\033[1;36m╭━━━━┳━━━┳━━╮
-\033[1;36m┃┃╱┃┃╭━╮┃╰╮╭╯┃\033[1;36m╰╮╭╮┃╭━━┫╭━╮┃\033[1;36m╰━━╮━┃╭━╮┣┫┣╯
-\033[1;36m┃╰━╯┃┃╱┃┣╮┃┃╭╯\033[1;36m╱┃┃┃┃╰━━┫╰━╯┃\033[1;36m╱╱╭╯╭┫┃╱┃┃┃┃
-\033[1;36m┃╭━╮┃╰━╯┃┃╰╯┃╱\033[1;36m╱┃┃┃┃╭━━┫╭━━╯\033[1;36m╱╭╯╭╯┃╰━╯┃┃┃
-\033[1;36m┃┃╱┃┃╭━╮┃╰╮╭╯\033[1;36m╱╭╯╰╯┃╰━━┫┃╱╱╱\033[1;36m╭╯━╰━┫╭━╮┣┫┣╮
-\033[1;36m╰╯╱╰┻╯╱╰╯╱╰╯\033[1;36m╱╱╰━━━┻━━━┻╯╱╱╱\033[1;36m╰━━━━┻╯╱╰┻━━╯
+
+{xduong}██╗  ██╗ █████╗ ██╗   ██╗
+{luc}██║  ██║██╔══██╗██║   ██║
+{do}███████║███████║╚██╗ ██╔╝
+{hong}██╔══██║██╔══██║ ╚████╔╝
+{trang}██║  ██║██║  ██║  ╚██╔╝
+{vang}╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
 \033[1;36m╠═════════════════════════════════════════════════════════════════
 {luc}║➢ Admin   :    HAV                                 
 {xnhac}║➢ Youtube  :   https://www.youtube.com/@hav.211                 
@@ -94,34 +95,34 @@ from time import strftime
 print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
 print("\033[1;31m\033[1;32m┃   Tool Trao Đổi Sub   ┃")
 print("\033[1;31m\033[1;37m┗━━━━━━━━━━━━━━━━━━━━━━━┛ ")
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [1.1] Tool Cày Xu TDS Instagram  : ")
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [1.2] Tool Cày Xu TDS Facebook Full Job : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[1.1] \033[1;31mTool Cày Xu TDS Instagram  : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[1.2] \033[1;31mTool Cày Xu TDS Facebook Full Job : ")
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  đang update thêm =))  ")
 print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
 print("\033[1;31m\033[1;32m┃  Tool Tương Tác Chéo  ┃")
 print("\033[1;31m\033[1;37m┗━━━━━━━━━━━━━━━━━━━━━━━┛")
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [2.1] Tool Cày Xu TTC Instagram : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[2.1] \033[1;31mTool Cày Xu TTC Instagram : ")
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  đang update thêm =))  ")
 print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
 print("\033[1;31m\033[1;32m┃  Tool Golike          ┃")
 print("\033[1;31m\033[1;37m┗━━━━━━━━━━━━━━━━━━━━━━━┛")       
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [3.1] Tool GOLIKE TIKTOK : ")      
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[3.1] \033[1;31mTool GOLIKE TIKTOK : ")      
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  đang update thêm =))  ")    
 print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
 print("\033[1;31m\033[1;32m┃  Tool Reg Page        ┃")
 print("\033[1;31m\033[1;37m┗━━━━━━━━━━━━━━━━━━━━━━━┛  ")            
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [4.1] Tool Reg Page Pro5 + Up AVT : ") 
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[4.1] \033[1;31mTool Reg Page Pro5 + Up AVT : ") 
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  đang update thêm =))  ") 
 print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
 print("\033[1;31m\033[1;32m┃  Tool Profile-Pro5    ┃")
 print("\033[1;31m\033[1;37m┗━━━━━━━━━━━━━━━━━━━━━━━┛")
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [8] Tool Buff Follow Bằng Pro5 : ") 
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [9] Tool Buff Like Bằng Pro5 : ") 
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [10] Tool Buff View Story Bằng Pro5: ") 
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [11] Tool Buff Share Ảo Cookie Max Speed [Dễ Dùng]  : ") 
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [12] Tool Buff Share Token dạng EAAD6V7 : ")
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [13] Tool Buff Share Ảo Pro5 - Cookie(Đa Luồng) : ")
-print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;36mNhập [14] Tool Buff Share Ảo Pro5 - Token : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.1] \033[1;31mTool Buff Follow Bằng Pro5 : ") 
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.2] \033[1;31mTool Buff Like Bằng Pro5 : ") 
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.3] \033[1;31mTool Buff View Story Bằng Pro5: ") 
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.4] \033[1;31mTool Buff Share Ảo Cookie Max Speed [Dễ Dùng]  : ") 
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.5] \033[1;31mTool Buff Share Token dạng EAAD6V7 : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.6] \033[1;31mTool Buff Share Ảo Pro5 - Cookie(Đa Luồng) : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.7] \033[1;31mTool Buff Share Ảo Pro5 - Token : ")
 chon = input('\033[1;31m[\033[1;37mNhập Số\033[1;31m] \033[1;37m=>')
 
 if chon == '1.1':
@@ -139,18 +140,26 @@ elif chon == '3.1':
 elif chon == '4.1':
     code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/4.1.txt').text
     exec(code) 
+elif chon == '5.1':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.1.py').text
     exec(code) 
-elif chon == 9:
-    code = requests.get('https://raw.githuusercontent.com/kylereditor/havdepzai/main/3.1.txt').text
+elif chon == '5.2':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.2.py').text
     exec(code) 
-elif chon == 10:
-    code = requests.get('https://raw.githuusercontent.com/kylereditor/havdepzai/main/3.1.txt').text
+elif chon == '5.3':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.3.py').text
     exec(code) 
-elif chon == 11:
-    code = requests.get('https://raw.githuusercontent.com/kylereditor/havdepzai/main/3.1.txt').text
+elif chon == '5.4':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.4.py').text
+    exec(code)
+elif chon == '5.5':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.5.py').text
     exec(code) 
-elif chon == 12:
-    code = requests.get('https://raw.githuusercontent.com/kylereditor/havdepzai/main/3.1.txt').text
+elif chon == '5.6':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.6.py').text
     exec(code) 
+elif chon == '5.7':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.7.py').text
+    exec(code)  
 else:
     print("Sai Số")
