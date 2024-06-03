@@ -123,6 +123,19 @@ print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.4] 
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.5] \033[1;31mTool Buff Share Token dạng EAAD6V7 : ")
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.6] \033[1;31mTool Buff Share Ảo Pro5 - Cookie(Đa Luồng) : ")
 print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[5.7] \033[1;31mTool Buff Share Ảo Pro5 - Token : ")
+print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
+print("\033[1;31m\033[1;32m┃  Tool Đào Bới         ┃")
+print("\033[1;31m\033[1;32m┗━━━━━━━━━━━━━━━━━━━━━━━┛")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.1] \033[1;31mTool Get Proxy(Vip) : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.2] \033[1;31mTool Đào Proxy : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.3] \033[1;31mTool Lọc Proxy Ver1 : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.4] \033[1;31mTool Lọc Proxy(Pro) : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.5] \033[1;31mTool Đào Mail : ")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.6] \033[1;31mTool Lọc Mail : ")
+print("\033[1;31m\033[1;39m┏━━━━━━━━━━━━━━━━━━━━━━━┓")
+print("\033[1;31m\033[1;32m┃   Tool Tiện Ích       ┃")
+print("\033[1;31m\033[1;32m┗━━━━━━━━━━━━━━━━━━━━━━━┛")
+print("\033[1;31m[\033[1;39mHAV\033[1;31m]➩  \033[1;39mNhập \033[1;36m[6.6] \033[1;31mTOOL MÃ HÓA CODE : ")
 chon = input('\033[1;31m[\033[1;37mNhập Số\033[1;31m] \033[1;37m=>')
 
 if chon == '1.1':
@@ -161,5 +174,26 @@ elif chon == '5.6':
 elif chon == '5.7':
     code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/5.7.py').text
     exec(code)  
+elif chon == '6.1':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/6.1.py').text
+    exec(code)  
+elif chon == '6.2':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/6.2.py').text
+    exec(code)  
+elif chon == '6.3':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/6.3.py').text
+    exec(code)  
+elif chon == '6.4':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/6.4.py').text
+    exec(code)  
+elif chon == '6.5':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/6.5.py').text
+    exec(code)  
+elif chon == '6.6':
+    code = requests.get('https://raw.githubusercontent.com/kylereditor/havdepzai/main/6.6.py').text
+    exec(code)  
+elif chon == '7.1':
+    code = requests.get('https://kylerhav.000webhostapp.com/a.py').text
+    exec(code)
 else:
     print("Sai Số")
