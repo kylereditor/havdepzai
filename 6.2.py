@@ -1,3 +1,23 @@
+import os
+
+os.system('cls')
+
+from colorama import init, Fore, Style
+import time
+
+init(autoreset=True)
+
+text = "Đang vào tool"
+for char in text:
+    print(f"{Fore.WHITE}{Style.BRIGHT}{char}{Style.RESET_ALL}", end="", flush=True)
+    time.sleep(0.05)
+print()
+
+time.sleep(2)
+
+print(Style.RESET_ALL)
+
+# Phần còn lại của code
 #!usr/bin/python3 
 import requests
 import os
