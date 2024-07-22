@@ -160,7 +160,9 @@ if ghj=='on':
     for pro in read_proxy:
         proxii = pro.split('\n')[0]
         list_proxie.append(proxii)
-clear_terminal()
+# Hàm xóa màn hình
+def clear_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
 print(f'{Defaut}#===========================================================#')
 print(f'{Defaut}》   {Purple}Username: {Red}{name}') 
 print(f'{Defaut}》   {Purple}Accountnumber: {Red}{len(list_acc)}')
