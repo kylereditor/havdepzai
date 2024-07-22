@@ -129,7 +129,9 @@ if(a=='2'):
     for ck in read_ck:
         cookieig = ck.split('\n')[0]
         list_acc.append(cookieig)
-clear_terminal()
+# Hàm xóa màn hình
+def clear_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
 checkfl=input(f'{Cyan}Có làm nhiệm vụ {Red}follow{Cyan} không (on/off): {Red}')
 if(checkfl=='on'):
     sofl=input(f'{Cyan}Nhập số follow/ 1 acc: {Red}')
@@ -142,7 +144,9 @@ if(checklike=='on'):
     delaylike=input(f'{Cyan}Nhap delay like: {Red}')
 chuyenacc=input(f'{Cyan}Nhập thời gian chuyển acc: {Red}')
 chuyenacc=int(chuyenacc)
-clear_terminal()
+# Hàm xóa màn hình
+def clear_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
 ghj=input(f'{Cyan}Có sử dụng {Red}proxy{Cyan} không (on/off): {Red}')
 list_proxie=[]
 if ghj=='on':
